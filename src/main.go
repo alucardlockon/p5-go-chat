@@ -7,10 +7,10 @@ import (
 	"log"
 	"html/template"
 	"database/sql"
-	_ "github.com/Go-SQL-Driver/MySQL"
 )
 
 func index(w http.ResponseWriter, r *http.Request){
+	/*
 	r.ParseForm()
 	fmt.Println(r.Form)
 	fmt.Println("path",r.URL.Path)
@@ -24,6 +24,7 @@ func index(w http.ResponseWriter, r *http.Request){
 	t,_:=template.ParseFiles("web/main.html")
 	t.Execute(w,nil)
 	sql.Open("mysql","root:1234@/test?charset=utf8")
+	*/
 }
 
 func main(){

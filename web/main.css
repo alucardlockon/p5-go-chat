@@ -1,0 +1,9 @@
+body{
+    background-color: red;
+}
+textarea{
+    width: 100%;
+}
+#msg_board{
+    background-color: red;
+}
